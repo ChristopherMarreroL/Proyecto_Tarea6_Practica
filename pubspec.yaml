@@ -1,0 +1,42 @@
+name: tarea6
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.0.0
+  cupertino_icons: ^1.0.6
+  http: ^0.13.3
+  url_launcher: ^6.0.20
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/multimedia/fotomiacopia.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/multimedia/
+
+  # Configuración del ícono de la aplicación
+  # Específica el nombre del archivo de imagen que deseas usar como ícono
+  # Asegúrate de que el nombre del archivo sea correcto y esté ubicado en assets/multimedia/
+  # Este archivo debe ser cuadrado y tener al menos 48x48 píxeles para que funcione en todas las plataformas.
+  # Puedes especificar diferentes resoluciones para diferentes tamaños de dispositivos.
+  # Aquí un ejemplo básico:
+
+
